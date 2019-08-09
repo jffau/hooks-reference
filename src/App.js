@@ -11,9 +11,7 @@ const App = props => {
   // });
 
   const [selectedCharacter, setSelectedCharacter] = useState(1);
-
   const [chosenSide, setChosenSide] = useState('light');
-
   const [destroyed, setDestroyed] = useState(false);
 
   const sideHandler = side => {
